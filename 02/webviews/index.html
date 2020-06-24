@@ -1,0 +1,18 @@
+<html>
+<title>本地开发</title>
+<script src="//imgcache.qq.com/qcloud/tcbjs/1.6.1/tcb.js"></script>
+
+<body>
+    <h1>本地开发</h1>
+    <script>
+        const app = tcb.init({
+            env: 'env-admwuxrx'
+        });
+        const auth = app.auth()
+        console.log(auth.hasLoginState());
+        console.log(app)
+    </script>
+</body>
+
+
+</html>

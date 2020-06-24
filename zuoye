@@ -1,0 +1,21 @@
+请下载学习群文件中【第三章】的资料内容，并完成如下的任务
+【挑战】实现云函数（不能是http云接入形式）接入腾讯验证码
+（具体效果：在网页中弹出腾讯云验证码，后台云函数验证是否是有效，并返回给页面提示）。
+提示：网页部署在静态网站中，使用匿名登录，直接展示腾讯验证码，操作后直接发起云函数验证操作是否有效，返回结果给页面。
+参考资料：
+SDK相关能力：https://docs.cloudbase.net/api-reference/server/node-sdk/auth.html#getclientip；
+Http触发形式的腾讯验证码云函数代码：https://github.com/TCloudBase/WEB-FILES/blob/master/cloudfunctions/functions/getFile/index.js；
+腾讯验证码控制台：https://console.cloud.tencent.com/captcha]
+提交方式：群聊中发送自己的网页展示地址（静态网站托管服务）并@班主任Zira
+
+请下载学习群文件中【第四章】的资料内容，并完成如下的任务
+将教程范例（意见反馈平台DEMO）中的管理端部分的列表加载变成实时数据库监听形式触发。用户端列表加载云函数适配超过100条的场景，采用promise all的形式进行改造，使其可以支持超过100条。
+提交方式：将自己改造的项目代码上传至代码托管平台，并在readme.md写下自己的实现思路。@班主任Zira发送代码托管地址。
+
+请下载学习群文件中【第五章】的资料内容，并完成如下的任务
+将教程范例的cloudtohttp函数使用sdk的getTempFileURL进行替换。
+提交方式：将自己改造的项目代码上传至代码托管平台，并在readme.md写下自己的实现思路。@班主任Zira发送自己的代码托管地址
+
+1301595367
+AKIDhSyNef20rVUIq9Ep11qa3KNJ0VkiK3JK
+40mxsnb8PYR4QVlskMGvIPFKL7ckdFgE
